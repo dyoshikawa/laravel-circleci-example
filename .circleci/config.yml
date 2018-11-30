@@ -45,7 +45,7 @@ jobs:
     docker:
       - image: dyoshikawa/laravel:latest
     steps:
-      - checkout:
+      - checkout
       - run:
           name: Deploy
           command: |
